@@ -1,0 +1,6 @@
+- About:
+    post: about
+- Blog Posts:
+    post: posts
+- Search:
+    post: search

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+    <title>OwdSource</title>
+    <link>/</link>
+    <description>Articles from a tech guy</description>
+    
+    <item>
+        <title>2016 - Time to start writing</title>
+        <link>/blog/2016.html</link>
+        <pubDate>Sat, 02 Jan 2016 13:40:00 GMT</pubDate>
+        <description> 2016 - Time to start writing I've been meaning to get a blog up and running for about 5 years, but never really had the time to get things going. Now blog platforms, such as PyKwiki (the one I'm using now), make things so easy I no longer have...</description>
+    </item>    
+    
+</channel>
+</rss>
