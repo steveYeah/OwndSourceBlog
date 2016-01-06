@@ -1,5 +1,4 @@
 [[
-title: OwndSource | Articles from a tech guy
 author: Steve Hutchins
 private: true
 ]]

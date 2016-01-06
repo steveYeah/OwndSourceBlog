@@ -1,5 +1,5 @@
 [[
-title: OwndSource | About
+title: About
 author: Steve Hutchins
 private: true
 ]]
