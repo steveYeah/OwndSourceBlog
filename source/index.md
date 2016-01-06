@@ -1,4 +1,5 @@
 [[
+title: Home
 author: Steve Hutchins
 private: true
 ]]
