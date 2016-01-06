@@ -12,14 +12,14 @@ postlist:
   order_field: mtime
   order_type: descending
   per_page: 2
-  post_type: preview
+  post_type: blurb
 rss_max_entries: 20
 site:
   author: Steve Hutchins
   base_url: ''
   description: Articles from a tech guy
   keywords: example, pykwiki
-  title: OwdSource
+  title: OwndSource
 source_ext: .md
 style: classic
 theme: blogit

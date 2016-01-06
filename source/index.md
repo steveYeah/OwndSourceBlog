@@ -1,5 +1,5 @@
 [[
-title: Blog: Articles from a tech guy
+title: OwndSource | Articles from a tech guy
 author: Steve Hutchins
 private: true
 ]]
@@ -7,17 +7,16 @@ private: true
 # OwndSource
 ------------
 
-### Welcome to my blog   
+## Welcome to my blog   
 I write about coding, technology, games and anything related. Hopefully you 
 find some of it useful or interesting, and if not, well, you can't please everyone ;).  
 
 Thanks! **Steve**
 
-### Recent posts...
-
+## Recent posts:   
 --------
 
-#### 2016 - Time to start writing
+### [2016 - Time to start writing](/blog/2016.html)    
 I finally started writing this blog!
 [Read More](/blog/2016.html)
    

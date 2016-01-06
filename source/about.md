@@ -1,8 +1,9 @@
 [[
-title: OwndSpurce
+title: OwndSource | About
 author: Steve Hutchins
 private: true
 ]]
+
 # Steve Hutchins
 ![me](/images/me.jpg)
 
