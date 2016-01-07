@@ -45,7 +45,7 @@ Earlier this week my Hacktoberfest T-shirt arrived! I even got a few stickers fr
 Thanks to the guys at Digital Ocean and GitHub for setting this up. Looks like a lot of people got involved 
 which is great for the open source community! I'm looking forward to next year! 
 
-For more information on Hacktoberfest, take a look at the [home page](https://hacktoberfest.digitalocean.com/)
+For more information on Hacktoberfest, take a look at the [Hacktoberfest home page](https://hacktoberfest.digitalocean.com/)
 and the [Digital Ocean blog](https://www.digitalocean.com/company/blog/hacktoberfest-is-back/)
 
 Oh, And thanks for my free stuff. I love swag.   
