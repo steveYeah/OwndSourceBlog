@@ -21,6 +21,9 @@ month I had a fully working project with about 5 PR's on my repo, plus I made a 
 projects. [Rabeye](https://github.com/steveYeah/RabEye) (naming things was never my forte) has been running at 
 work on our live servers now ever since and currently sits at ~650 downloads a month.
 
+<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Awesome! Thanks guys! <a href="https://twitter.com/hashtag/Hacktoberfest?src=hash">#Hacktoberfest</a> <a href="https://t.co/JZxEUfmdcw">pic.twitter.com/JZxEUfmdcw</a></p>&mdash; Steve Hutchins (@tensaiSteveYeah) <a href="https://twitter.com/tensaiSteveYeah/status/685193134842707968">January 7, 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ### Open Source
 I've never really done a lot of open source work, which I find strange as all software I write these days uses
 open source tools and libraries. I'm always amazed at the people that take the time out of there lives to help
