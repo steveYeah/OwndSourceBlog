@@ -4,7 +4,7 @@ author: Steve Hutchins
 tags: [open source, hacktoberfest]
 blurb: auto
 keywords: hacktoberfest, swag, open source, digital ocean, digitalocean 
-timestamp: 2016-01-07 13:08
+timestamp: 07-01-2016 13:08
 ]]
 
 # Hacktoberfest and free Swag!
