@@ -4,7 +4,7 @@ copyright_date: 2016
 invert_navbar: true
 # Disqus short name. If present, it will attempt to enable commenting
 #   on post pages. 
-disqus_short_name: null
+disqus_short_name: owndsource
 # Header image, either null or /url/of/image.png
 header_image: /images/office-header.jpg
 # The colors should be in quotes, like "#336699" or "red"
