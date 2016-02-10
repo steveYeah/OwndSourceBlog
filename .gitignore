@@ -1,2 +1,4 @@
 /docroot/*
 !/docroot/images
+!/docroot/index.html
+!/docroot/about.html
