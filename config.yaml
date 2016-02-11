@@ -11,7 +11,7 @@ postlist:
   max_pages: 5
   order_field: mtime
   order_type: descending
-  per_page: 2
+  per_page: 5
   post_type: blurb
 rss_max_entries: 20
 site:

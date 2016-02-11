@@ -4,7 +4,7 @@ author: Steve Hutchins
 tags: [python, code, software design]
 blurb: auto
 keywords: python, code, software design
-timestamp: 02-01-2016 13:40
+timestamp: 12-02-2016 23:37
 ]]
 
 # Pythonic models
@@ -72,7 +72,7 @@ is more secure but not immutable:
     >>> test.d
     5
     
-Here we have set a new attribute `d` with not problems. Again you might want this, and if so go for it! You 
+Here we have set a new attribute `d` with no problems. Again you might want this, and if so go for it! You 
 know what you want better than I do :D
  
 ### Tuples as models
