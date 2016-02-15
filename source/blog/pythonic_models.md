@@ -123,7 +123,7 @@ class we first looked at, but is completely immutable. And, I'll say again, all 
     <class '__main__.Example'>
     
 It's worth mentioning that if you have a class that will represent a value object, but also has a method(s) then you can
-still use named tuples, as long as the method doesn't change the value of the attributes. To so this we
+still use named tuples, as long as the method doesn't change the value of the attributes. To do this we
 need to extend `namedtuple`:
 
     from collections import namedtuple
@@ -144,7 +144,7 @@ Now we can just use the class and the method as you would expect:
     
 Less code, more readable, more benefits, flexible. If you are still not sold, there is more! Python objects hold all 
 their data in dictionaries. As dictionaries are mutable and dynamic they take up more memory to allow for 
-alteration in the future. As tuples are immutable they take up less memory. Now you will only really 
+alteration in the future. As tuples are immutable they take up less memory. Now, you will only really 
 get the most of this if your code creates a large amount of objects of this class, but it's still a good 
 benefit in any codebase.
 
