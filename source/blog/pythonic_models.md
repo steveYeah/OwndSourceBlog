@@ -4,7 +4,7 @@ author: Steve Hutchins
 tags: [python, code, software design]
 blurb: auto
 keywords: python, code, software design
-timestamp: 12-02-2016 23:37
+timestamp: 14-02-2016 23:37
 ]]
 
 # Pythonic models
@@ -89,7 +89,7 @@ Not exactly self explanatory! As a result it's not often used these days.
 This leads us to my personal favourite option, the namedtuple. Python has a number of high performance 
 collections in the built-in module `collections`. If you are unfamiliar with these then go take a look at the 
 [python 2 documentation](https://docs.python.org/2/library/collections.html) or the [python 3 documentation](https://docs.python.org/3/library/collections.html).
-(another really good class in there is the `defaultdict` Go take a look!)
+(another really good class in there is the `defaultdict`. Go take a look!)
 With namedtuples we get the best of our simple object and our tuple:
 
     from collections import namedtuple
@@ -122,7 +122,27 @@ class we first looked at, but is completely immutable. And, I'll say again, all 
     >>> type(test)
     <class '__main__.Example'>
     
-Less code, more readable, more benefits. If you are still not sold, there is more! Python objects hold all 
+It's worth mentioning that if you have a class that will represent a value object, but also has a method(s) then you can
+still use named tuples, as long as the method doesn't change the value of the attributes. To so this we
+need to extend `namedtuple`:
+
+    from collections import namedtuple
+    
+    class Example(namedtuple('Example', ('a', 'b', 'c'))):
+           
+        def example_func(self):
+            return self.a + self.b + self.c
+    
+Now we can just use the class and the method as you would expect:
+
+    >>> test = Example(1,2,3)
+    >>> test.example_func
+    <bound method Example.example_func of Example(a=1, b=2, c=3)>
+    >>> test.example_func()
+    6
+    >>>
+    
+Less code, more readable, more benefits, flexible. If you are still not sold, there is more! Python objects hold all 
 their data in dictionaries. As dictionaries are mutable and dynamic they take up more memory to allow for 
 alteration in the future. As tuples are immutable they take up less memory. Now you will only really 
 get the most of this if your code creates a large amount of objects of this class, but it's still a good 
